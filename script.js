@@ -68,11 +68,6 @@ btnContainer.appendChild(editBtn);
     
     addBtn.innerHTML = '<i class="fa-solid fa-check"></i>';
     addBtn.className = "text-white bg-gray-500 p-2 rounded-md text-md hover:bg-black ";
-
-
-if (newTask !== null && newTask.trim() !== "") {
-  taskText.textContent = newTask;
-}
     
   });
 //delete
